@@ -1,0 +1,65 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# Turborepo
+.turbo
+
+# Yarn Berry
+.pnp.*
+.yarn
+
+# next.js
+/out/
+**/public/workbox-*.js
+**/public/sw.js
+**/public/workbox-*.js.map
+**/public/sw.js.map
+
+# vercel
+.vercel
+
+# expo
+.expo-shared
+.expo
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# CocoaPods
+/ios/Pods/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
